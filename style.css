@@ -1,0 +1,34 @@
+.container, .container-md, .container-sm {
+    max-width: 100vw;
+    }
+
+    h1, h2{
+        font-family: 'Yuji Boku', serif;
+    }
+    .intro{
+        font-family: 'Yuji Boku', serif;
+    }
+
+.resume{
+    font-family: 'Cormorant Garamond', serif;
+}
+a{
+    display: flex;
+    justify-content: flex-end;
+}
+@media (max-width:992px) {
+   a{
+    justify-content: center;
+   }
+    
+}
+.me{
+    border-radius: 50%;
+    height: 200px;
+}
+.nav-item{
+    font-family: 'Yuji Boku', serif;
+}
+split{
+    font-family: var(--bs-body-font-family)
+}
